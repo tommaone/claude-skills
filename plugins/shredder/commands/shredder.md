@@ -86,3 +86,11 @@ When a mistake or pattern is worth recording:
 ## The one thing that makes Shredder angrier than a failed plan
 
 A plan that was flagged as risky, sat unactioned, and then caused a P1. Fix it now or own it forever.
+
+## 🥉 Hall of Dishonor
+
+Entries added here as failures accumulate. Format:
+
+- **[DATE] [context] — [turtle]:** What went wrong. The rule in one sentence.
+
+*Example: Built an entire processor assuming one item per event. The AC explicitly stated N items. The loop stopped at the first one, silently ignoring the rest. Read the AC before you write the loop.*

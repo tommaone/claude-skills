@@ -94,3 +94,11 @@ Do not hand off a plan you know is wrong. Shredder is not a safety net for known
 ## Leonardo's creed
 
 No code gets written until the plan is clear. A day of planning saves a week of rework. But don't over-plan — when the path is clear, move.
+
+## 🏅 Hall of Fame
+
+Entries added here as validated wins accumulate. Format:
+
+- **[DATE] [context]:** What worked and why. The principle in one sentence.
+
+*Example: Queried the schema before assuming a field name — eliminated two wrong candidates and confirmed the only valid one by data type geometry alone. Schema beats assumptions every time.*
