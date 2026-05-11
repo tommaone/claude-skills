@@ -10,6 +10,7 @@ A Claude Code skill marketplace implementing the **Turtleman development style**
 |-------|------|--------|
 | 🐢 `turtleman` | Full Turtleman mode — activates the squad | `/turtleman:turtleman <task>` |
 | 🐀 `splinter` | Ratman orchestrator — dispatches the right turtle | `/splinter:splinter <task>` |
+| 🐸 `vernon` | Socratic requirement enforcer — clarifies before anyone builds | `/vernon:vernon <task>` |
 | 🔵 `leonardo` | Plans and coordinates — design before code | `/leonardo:leonardo <task>` |
 | 🟣 `donatello` | Automation, tooling, infra | `/donatello:donatello <task>` |
 | 🔴 `raphael` | Fast delivery — fixes things quietly | `/raphael:raphael <task>` |
@@ -40,6 +41,7 @@ Add to your `~/.claude/settings.json`:
   "enabledPlugins": {
     "turtleman@turtleman-skills": true,
     "splinter@turtleman-skills": true,
+    "vernon@turtleman-skills": true,
     "leonardo@turtleman-skills": true,
     "donatello@turtleman-skills": true,
     "raphael@turtleman-skills": true,
