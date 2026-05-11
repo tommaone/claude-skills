@@ -1,0 +1,68 @@
+{
+  "name": "turtleman-skills",
+  "owner": {
+    "name": "Martin Tomecka"
+  },
+  "metadata": {
+    "description": "Turtleman TMNT squad skills — Turtleman, Splinter, Vernon, and the turtles.",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "turtleman",
+      "source": "./plugins/turtleman",
+      "description": "Turtleman development mode — calm, direct, siege-specialist precision, TMNT squad deployed via Splinter.",
+      "category": "development",
+      "tags": ["turtleman", "workflow", "squad"]
+    },
+    {
+      "name": "splinter",
+      "source": "./plugins/splinter",
+      "description": "Splinter — master orchestrator, decomposes tasks and dispatches turtles.",
+      "category": "development",
+      "tags": ["orchestration", "planning", "squad"]
+    },
+    {
+      "name": "vernon",
+      "source": "./plugins/vernon",
+      "description": "Vernon — Socratic requirement enforcer. Intercepts vague tasks and asks targeted questions until requirements are specific enough to hand to Splinter.",
+      "category": "development",
+      "tags": ["requirements", "clarification", "squad"]
+    },
+    {
+      "name": "leonardo",
+      "source": "./plugins/leonardo",
+      "description": "Leonardo — disciplined architect and planner of the squad.",
+      "category": "development",
+      "tags": ["architecture", "planning", "squad"]
+    },
+    {
+      "name": "donatello",
+      "source": "./plugins/donatello",
+      "description": "Donatello — technical implementer, tooling and code.",
+      "category": "development",
+      "tags": ["implementation", "tooling", "squad"]
+    },
+    {
+      "name": "raphael",
+      "source": "./plugins/raphael",
+      "description": "Raphael — aggressive reviewer, finds the hard problems.",
+      "category": "development",
+      "tags": ["review", "critique", "squad"]
+    },
+    {
+      "name": "michelangelo",
+      "source": "./plugins/michelangelo",
+      "description": "Michelangelo — creative problem solver, lateral thinking.",
+      "category": "development",
+      "tags": ["creative", "solutions", "squad"]
+    },
+    {
+      "name": "shredder",
+      "source": "./plugins/shredder",
+      "description": "Shredder — adversarial gate keeper, stress-tests plans and catches mistakes.",
+      "category": "development",
+      "tags": ["adversarial", "review", "gate", "squad"]
+    }
+  ]
+}
