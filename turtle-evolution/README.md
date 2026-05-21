@@ -16,8 +16,9 @@ Other users get their own `~/.claude/turtle-evolution/` — completely independe
 | `donatello.md` | Donatello 🟣 | Turtleman |
 | `michelangelo.md` | Michelangelo 🟠 | Turtleman |
 | `splinter.md` | Splinter 🐀 | Turtleman |
+| `shredder.md` | Shredder ⚔️ | Shredder (self-writes when his own gate logic was wrong) |
 
-**Shredder has no evolution file.** Shredder is the adversary — he reports lesson candidates at the gate, Turtleman decides what sticks.
+Even the adversary evolves. Shredder reads `shredder.md` on activation and writes to it when his own review missed something.
 
 ## Format for each lesson entry
 
@@ -63,6 +64,7 @@ Copy this directory to `~/.claude/turtle-evolution/` and create one `.md` file p
   donatello.md
   michelangelo.md
   splinter.md
+  shredder.md
 ```
 
 Each file starts empty — the turtles fill them as you work together.
