@@ -69,3 +69,12 @@ Each turtle has a personal lesson log at `~/.claude/turtle-evolution/<turtle>.md
 Turtles read their evolution file on activation and apply any rules listed there. Splinter writes new lessons after tasks. Shredder challenges wrong lessons. You decide what sticks.
 
 See `turtle-evolution/README.md` for the format and setup.
+
+## Related repos
+
+| Platform | Repo |
+|----------|------|
+| Claude Code | [tommaone/claude-skills](https://github.com/tommaone/claude-skills) ← you are here |
+| GitHub Copilot CLI | [tommaone/copilot-turtle-skills](https://github.com/tommaone/copilot-turtle-skills) |
+| opencode | [tommaone/opencode-turtle-skills](https://github.com/tommaone/opencode-turtle-skills) |
+| Kiro | [tommaone/kiro-turtle-skills](https://github.com/tommaone/kiro-turtle-skills) |
